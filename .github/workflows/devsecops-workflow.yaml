@@ -20,7 +20,7 @@ jobs:
       with:
         args: >
           -Dsonar.organization=gitlabdevsecopskey
-          -Dsonar.projectKey=gitlabdevsecopskey_gittest
+          -Dsonar.projectKey=gitlabdevsecopskey_test
   security:
     runs-on: ubuntu-latest
     needs: build
